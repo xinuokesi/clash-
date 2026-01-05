@@ -394,8 +394,6 @@ dns:
     geosite:geolocation-!cn:
       - https://dns.cloudflare.com/dns-query
       - https://dns.google/dns-query
-proxies:
-
 proxy-groups:
   - type: select
     name: 🚀 节点选择
@@ -714,4 +712,5 @@ rules:
   - RULE-SET,cn,🔒 国内服务,no-resolve
   - RULE-SET,telegram,📲 电报消息,no-resolve
   - MATCH,🐟 漏网之鱼
+
 

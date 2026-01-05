@@ -401,12 +401,17 @@ proxy-groups:
     name: 🚀 节点选择
     proxies:
       - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
-  - name: ⚡ 自动选择
-    type: url-test
-    proxies:
-
+  - type: url-test
+    name: ⚡ 自动选择
+    include-all: true
     url: https://www.gstatic.com/generate_204
     interval: 300
     lazy: false
@@ -418,41 +423,97 @@ proxy-groups:
   - type: select
     name: 💬 AI 服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 📺 哔哩哔哩
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 📹 油管视频
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🔍 谷歌服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🏠 私有网络
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🔒 国内服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 📲 电报消息
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🐱 Github
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
@@ -463,48 +524,147 @@ proxy-groups:
   - type: select
     name: 🍏 苹果服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🌐 社交媒体
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🎬 流媒体
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🎮 游戏平台
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 📚 教育资源
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 💰 金融服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: ☁️ 云服务
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🌐 非中国
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
   - type: select
     name: 🐟 漏网之鱼
     proxies:
+      - ⚡ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - DIRECT
       - REJECT
+ - name: 🇭🇰 香港节点
+    include-all: true
+    filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇯🇵 日本节点
+    include-all: true
+    filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇺🇲 美国节点
+    include-all: true
+    filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇳 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇸🇬 狮城节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇰🇷 韩国节点
+    include-all: true
+    filter: (?i)KR|Korea|KOR|首尔|韩|韓
+    type: url-test
+    interval: 300
+    tolerance: 50
 rules:
   - RULE-SET,category-ads-all,🛑 广告拦截
   - RULE-SET,category-ai-!cn,💬 AI 服务
@@ -554,3 +714,4 @@ rules:
   - RULE-SET,cn,🔒 国内服务,no-resolve
   - RULE-SET,telegram,📲 电报消息,no-resolve
   - MATCH,🐟 漏网之鱼
+
